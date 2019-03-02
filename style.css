@@ -1,0 +1,302 @@
+/*
+ * Theme Name:Captain Drake FAA 
+ * Author: Gregory D. Burns
+ * Author URI: https://burnswebservices.com
+ * Description: Custome Theme.
+ * Version: 1.0
+ * */
+body {
+    background: rgb(10, 31, 110);
+    background-image: url("/wp-content/themes/captaindrakes/img/background.jpg");
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+    font-family: "Arial", sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+img.floatRight {
+    float: right;
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-bottom: 5px;
+}
+
+img.floatLeft {
+    float: left;
+    margin-top: 15px;
+    margin-right: 25px;
+    margin-bottom: 5px;
+}
+
+a {
+    text-decoration: underline;
+    color: rgb(141, 198, 63);
+    font-weight: normal;
+}
+
+a:visited {
+    text-decoration: underline;
+    color: rgb(141, 198, 63);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(141, 198, 63);
+}
+
+#MasterTable table {
+    width: 1000px;
+    background: rgb(255, 255, 255);
+    border-collapse: collapse;
+    border: 0px solid rgb(0, 0, 0);
+    margin-top: 0px;
+}
+
+#MasterTable td {
+    border: 0px solid rgb(0, 0, 0);
+    vertical-align: top;
+    padding: 0px;
+}
+
+#MainMenu {
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+
+#MainMenu a {
+    text-decoration: none;
+    font-variant: none;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 20px 5px 20px;
+}
+
+#MainMenu a:visited {
+    text-decoration: none;
+}
+
+#MainMenu a:hover {
+    background-color: rgb(168, 168, 168);
+}
+
+#Contact {
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+    padding: 5px;
+}
+
+#HGray h1 {
+    font-size: 20px;
+    font-variant: small-caps;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin-top: 0px;
+    margin-left: 5px;
+    padding-left: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid rgb(128, 128, 128);
+    text-align: left;
+}
+
+#BreadCrumb {
+    font-size: 12px;
+    margin-bottom: 25px;
+    margin-left: 0px;
+}
+
+#SideMenuHead {
+    font-size: 12px;
+    border-bottom: 0px dotted rgb(0, 92, 0);
+    color: rgb(32, 32, 32);
+    margin: 0px 10px 0px 10px;
+    padding: 10px 0px 3px 3px;
+}
+
+#SideMenuHead a {
+    text-decoration: none;
+    color: rgb(16, 16, 16);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#SideMenuHead a:visited {
+    text-decoration: none;
+}
+
+#SideMenuHead a:hover {
+    text-decoration: underline;
+}
+
+#SideMenuList {
+    line-height: 1.5;
+    font-size: 12px;
+    font-weight: normal;
+    border: 2px groove rgb(255, 255, 255);
+    background-color: rgb(224, 224, 224);
+    color: rgb(0, 0, 0);
+    margin: 0px 10px 10px 10px;
+    padding: 5px 10px 10px 10px;
+}
+
+#SideMenuList a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    font-weight: normal;
+}
+
+#SideMenuList a:visited {
+    text-decoration: none;
+}
+
+#SideMenuList a:hover {
+    text-decoration: underline;
+}
+
+#Foot {
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+#Foot a {
+    text-decoration: underline;
+    color: rgb(0, 0, 124);
+    font-weight: normal;
+}
+
+#Foot a:visited {
+    text-decoration: underline;
+    color: rgb(0, 0, 124);
+}
+
+#Foot a:hover {
+    text-decoration: underline;
+    color: rgb(0, 0, 124);
+}
+
+#Foot2 {
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    text-align: left;
+    padding-top: 8px;
+}
+
+#Foot2 a {
+    color: rgb(0, 0, 0);
+}
+
+#Foot2 a:visited {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+#Foot2 a:hover {
+    text-decoration: underline;
+}
+
+#MainPage p {
+    font-size: 16px;
+}
+
+#MainPage ul {
+    font-size: 16px;
+}
+
+#Product table {
+    width: 600px;
+    background: rgb(255, 255, 255);
+    border-collapse: collapse;
+    border: 0px solid rgb(0, 0, 0);
+    margin-top: 10px;
+}
+
+#Product td {
+    border: 0px solid rgb(0, 0, 0);
+    vertical-align: top;
+    padding: 0px;
+}
+
+#Product img {
+    border: 0px;
+    margin-bottom: 5px;
+}
+
+#Product p {
+    font-size: 12px;
+    text-align: justify;
+}
+
+#Product h3 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#Product ul {
+}
+
+#Product li {
+    font-size: 12px;
+    text-align: justify;
+    list-style-type: square;
+}
+
+#Details {
+}
+
+#Details table {
+    width: 600px;
+    background: rgb(255, 255, 255);
+    border-collapse: collapse;
+    border: 0px solid rgb(0, 0, 0);
+    margin-top: 10px;
+}
+
+#Details td {
+    font-size: 12px;
+    border: 1px solid rgb(192, 192, 192);
+    vertical-align: top;
+    padding: 5px;
+}
+
+#Details img {
+    border: 0px;
+}
+
+#Details p {
+    font-size: 12px;
+    text-align: justify;
+}
+
+#Terms p {
+    font-size: 12px;
+}
+
+#SiteMap {
+    padding-left: 50px;
+}
+
+#SiteMap li {
+    font-size: 16px;
+    padding: 2px;
+}
+
+#SiteMap li a {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+#SiteMap li a:visited {
+    color: rgb(192, 0, 0);
+}
+
+#SiteMap li a:hover {
+    text-decoration: none;
+}
